@@ -3,69 +3,7 @@
 <head>
 	<title>LogIn</title>
 	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-	<style type="text/css">
-		
-		body{
-			height: 85vh;
-			width: 100%;
-			background-image: linear-gradient(45deg,#7DBBC3,#DAEDBD);
-
-		}
-
-		.LogIn{
-			width: 400px;
-			box-shadow: 0 0 3px 0 rgb(0,0,0,0.3);
-			background-color: white;
-			padding: 20px;
-			text-align: center;
-			margin: 12% auto 0;
-			border-radius: 20px;
-		}
-		
-		.input-box{
-			margin: 31px auto;
-			width: 85%;
-			border-bottom: 2px solid black;
-			padding-top: 10px;
-			padding-bottom: 5px;
-		}
-
-		.input-box input{
-			width: 90%;
-			border: none;
-			outline: none;
-			background: transparent;
-			color: black;
-			font-size: 20px;
-		}
-
-		.fa{
-			margin-right: 10px;
-		}
-
-		.eye{
-			position: absolute;
-		}
-
-		#hide1{
-			display: none;
-		}
-
-		.Login-but1,.Login-but2{
-			margin: 40px auto 20px;
-			width: 80%;
-			display: block;
-			outline: none;
-			padding: 10px 0;
-			border: 2px solid black;
-			background: transparent;
-			color: black;
-			font-size: 16px;
-			cursor: pointer;
-
-		}
-		
-	</style>
+	<link rel="stylesheet" type="text/css" href="css/login.css">
 </head>
 <body>
 	<div class="LogIn">
@@ -77,12 +15,13 @@
 			<div class="input-box">
 				<i class="fa fa-key"></i>
 				<input type="password" placeholder="Password">
-				<span class="eye">
+				<!-- <span class="eye">
 				<i id="hide1" class="fa fa-eye"></i>
 				<i id="hide2" class="fa fa-eye-slash"></i>
-				</span>
+				</span> -->
 			</div>
 			<button type="button" class="Login-but1">Login</button>
+			<a href="#"><button type="button" class="Login-but2">Login As Admin</button></a>
 			<a href="NewAccount.html"><button type="button" class="Login-but2">Create a new Account</button></a>
 	</div> 
 </body>

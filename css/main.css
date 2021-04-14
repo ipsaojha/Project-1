@@ -1,0 +1,71 @@
+body{
+    margin: 0px;
+}
+    #dashboard{
+        display: flex;
+        flex-direction: row;
+
+    }
+
+    div.sidebar{
+        width: 25%;
+        height: 100vh;
+        background-image: linear-gradient(45deg,#7DBBC3,#DAEDBD);
+        text-align: center;
+    }
+
+    div.RightSide{
+        width: 75%;
+
+    }
+
+    .heading{
+        font-size: 50px;
+        text-align: center;
+    }
+
+    div.user{
+        font-size: 20px;
+    }
+
+    hr{
+        height:2px;
+        border-width:0;
+        background-color:black;
+    }
+
+    ul{
+
+    padding-inline-start: 0px !important;
+        list-style-type: none;
+    }
+
+    .menu_list li{
+        padding: 10px;
+        /* padding: none !important; */
+        font-size: 18px;
+    }
+
+    .menu_list li a{
+        text-decoration: none;
+        color: black;
+    }
+    .menu_list li a:hover{
+        color: white;
+        
+    }
+
+    div.topbar{
+        background-color: white;
+        padding: 20px;
+    }
+
+    div.topbar a{
+        color: black;
+        font-size: 18px;
+        text-decoration: none;
+    }
+
+    a#logOut-but{
+        float: right;
+    }
