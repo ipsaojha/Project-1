@@ -120,7 +120,6 @@ body{
         padding-top: 10px;
         padding-bottom: 5px;
         margin: 2% auto;
-        color: black;
         font-size: 14px;
     }
 
@@ -132,11 +131,21 @@ body{
         padding: 10px 0;
         border: 2px solid black;
         background: transparent;
-        color: black;
         font-size: 14px;
         cursor: pointer;
+        color: black;
     }
     .add_but:hover{
         background-color: rgba(76, 245, 99, 0.445);
     }
-
+/*CSS for dropdown*/
+select{
+    width: 85%;
+    height: 30px;
+    font-size: 14px;
+    border: 0;
+    outline: 0;
+    border-bottom: 2px solid;
+    margin: 2% auto;
+    background-color: transparent;
+}
